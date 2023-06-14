@@ -1,20 +1,18 @@
-import React from "react";
 
 import Product from "./Product/Product";
 
 import { useAppSelector } from "../Redux/hooks/hooks";
 
-const ProductsList = ({ className }: React.HTMLAttributes<T>) => {
+const ProductsList = () => {
   const { products } = useAppSelector((state) => state.products);
 
   return (
-    <div className={`productsContainer ${className}`}>
+    <div className={`productsContainer 'checkout'`}>
       {products.map((product) => {
         return (
           <Product
             key={product.productId}
             product={product}
-            className={className}
           />
         );
       })}

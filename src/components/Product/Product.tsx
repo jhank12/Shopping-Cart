@@ -1,4 +1,4 @@
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 
 import { useAppDispatch } from "../../Redux/hooks/hooks";
 
@@ -8,7 +8,6 @@ import { useId } from "react";
 
 type PropTypes = {
   product: { productId: number; name: string; price: number; image: string };
-  className?: ReactNode;
 };
 
 const Product = ({ product }: PropTypes) => {

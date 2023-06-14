@@ -46,7 +46,7 @@ const CartItemsList = () => {
                     width="35"
                     height="35"
                     fill="currentColor"
-                    class="bi bi-dash"
+                    className="bi bi-dash"
                     viewBox="0 0 16 16"
                   >
                     <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
@@ -62,7 +62,7 @@ const CartItemsList = () => {
                     width="22"
                     height="22"
                     fill="currentColor"
-                    class="bi bi-trash"
+                    className="bi bi-trash"
                     viewBox="0 0 16 16"
                   >
                     <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
@@ -82,7 +82,7 @@ const CartItemsList = () => {
                   width="35"
                   height="35"
                   fill="currentColor"
-                  class="bi bi-plus"
+                  className="bi bi-plus"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import "./ShoppingCart.module.css";
 
@@ -26,7 +26,7 @@ const ShoppingCart = () => {
         width="32"
         height="32"
         fill="currentColor"
-        class="bi bi-cart3"
+        className="bi bi-cart3"
         viewBox="0 0 16 16"
         // onClick={() => cart.length > 0 ? setModalOpen(!modalOpen): setModalOpen(false)}
         onClick={() => setModalOpen(!modalOpen)}

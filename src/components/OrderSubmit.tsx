@@ -1,11 +1,9 @@
 import { useAppSelector, useAppDispatch } from "../Redux/hooks/hooks";
-import { clearCart } from "../Redux/cartSlice";
 import { useNavigate } from "react-router-dom";
 
 import { clearCompletedOrder } from "../Redux/completedOrderSlice";
 
 const OrderSubmit = () => {
-  const { cart } = useAppSelector((state) => state.cart);
   const { order } = useAppSelector((state) => state.order);
 
 

@@ -1,4 +1,3 @@
-import React from "react";
 
 import { useNavigate } from "react-router-dom";
 import CartItemsList from "./CartItemsList";
@@ -6,7 +5,7 @@ import CartItemsList from "./CartItemsList";
 import { useAppDispatch, useAppSelector } from "../Redux/hooks/hooks";
 import { clearCart } from "../Redux/cartSlice";
 
-import { setCompletedOrder, clearCompletedOrder } from "../Redux/completedOrderSlice";
+import { setCompletedOrder } from "../Redux/completedOrderSlice";
 
 import ProductsList from "./ProductsList";
 

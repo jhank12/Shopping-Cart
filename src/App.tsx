@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
