@@ -64,7 +64,7 @@ const Checkout = () => {
 
         <div className="checkoutListHeadingContainer">
           <h3>You may also like</h3>
-          <ProductsList className="checkout" />
+          <ProductsList />
         </div>
       </div>
     </div>

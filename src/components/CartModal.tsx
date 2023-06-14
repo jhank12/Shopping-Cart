@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, {SetStateAction} from "react";
 import CartItemsList from "./CartItemsList";
 
 import { useAppSelector, useAppDispatch } from "../Redux/hooks/hooks";
@@ -7,6 +6,7 @@ import { useAppSelector, useAppDispatch } from "../Redux/hooks/hooks";
 import { clearCart } from "../Redux/cartSlice";
 
 import { useNavigate } from "react-router-dom";
+
 
 const CartModal = ({ setModalOpen }) => {
   const navigate = useNavigate();

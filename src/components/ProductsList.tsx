@@ -7,7 +7,7 @@ const ProductsList = () => {
   const { products } = useAppSelector((state) => state.products);
 
   return (
-    <div className={`productsContainer 'checkout'`}>
+    <div className={`productsContainer`}>
       {products.map((product) => {
         return (
           <Product
