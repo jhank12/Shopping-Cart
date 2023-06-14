@@ -6,8 +6,11 @@ import { clearCart } from "../Redux/cartSlice";
 
 import { useNavigate } from "react-router-dom";
 
+type PropTypes = {
+  setModalOpen: React.Dispatch<React.SetStateAction<boolean>>
+}
 
-const CartModal = ({ setModalOpen }:any) => {
+const CartModal = ({ setModalOpen }: PropTypes) => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
 

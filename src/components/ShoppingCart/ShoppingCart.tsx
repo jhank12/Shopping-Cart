@@ -9,7 +9,7 @@ import CartModal from "../CartModal";
 const ShoppingCart = () => {
   const { cart } = useAppSelector((state) => state.cart);
 
-  const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
 
   const cartQuantity = cart.reduce(
     (accumulator, currentValue) => accumulator + currentValue.quantity,
