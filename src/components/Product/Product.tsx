@@ -39,7 +39,7 @@ const Product = ({ product }: PropTypes) => {
   return (
     <div className="card">
       <div className="productImg">
-        <img src='/images/dumbbell.png' alt={product.image} />
+        <img src={product.image} alt={product.image} />
       </div>
       <div className="productInfo">
         <h3>{product.name}</h3>
