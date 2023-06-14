@@ -23,7 +23,7 @@ function App() {
       </header>
 
       <Routes>
-        <Route path="/" element={<Products />} />
+        <Route  path="/" element={<Products />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/order-submit" element={<OrderSubmit />} />
 
